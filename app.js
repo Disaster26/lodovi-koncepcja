@@ -1,14 +1,15 @@
 (function(){
+  // karta smaków 2027 (z pliku klienta SMAKI- 2027.xls)
   var smaki=[
-    ["Zielone owoce","#c3db54","sorbet"],["Arbuz","#d76e57","sorbet"],["Wanilia Madagaskar","#cec0ad"],["Truskawka","#e7ada0"],
-    ["Tofik orzechowe","#daa36d"],["Tiramisu cytrynowe","#e2cb65"],["Śmietanka","#e7e0c8"],["Smerf","#50afca"],
-    ["Słony karmel","#d99251"],["Śliwka wiśnia w czekoladzie","#a96f4f"],["Ricotta z malinami","#d97380"],["Pistacja prażona","#d1c278"],
-    ["Mojito","#c5d163","sorbet"],["Mięta czekolada","#81ab77"],["Melba kokosowa","#daa492"],["Mango","#e0b04a","sorbet"],
-    ["Malina z dziką różą","#da797d"],["Leśne mascarpone","#c27f85"],["Knoperix","#bd9377"],["Kiwi","#cadb70"],
-    ["Kinder czekolada","#a37d67"],["Czarna porzeczka z lawendą","#944d65","jogurtowe"],["Borówka z poziomką","#b97f89","jogurtowe"],["Guma balonowa","#e38ea0"],
-    ["Czerwona porzeczka","#dc3b40","sorbet"],["Czekolada belgijska","#af7457"],["Cytryna","#e4d779","sorbet"],["Cola cytryna","#dc633b","sorbet"],
-    ["Ciasteczko Orix","#b3a594"],["Ciasteczko brownie","#ad7553"],["Chałwa pistacjowa","#cda96f"],["Cappuccino","#c1a78e"],
-    ["Beza pavlova","#e4aca3"],["Banan wiśnia","#e59a66"],["Bakalia sułtańska","#d1a174"]
+    ["Cytryna","#e4d779","sorbet"],["Cappuccino - tiramisu","#c1a78e"],["Czekolada mleczna","#9c6b4e"],["Mięta z czekoladą","#81ab77"],
+    ["Smerf","#50afca"],["Stracciatella","#e6dfcf"],["Śmietanka","#e7e0c8"],["Truskawka","#e7ada0"],
+    ["Arbuz","#d76e57"],["Bakalia sułtańska","#d1a174"],["Banan z wiśnią","#e59a66"],["Ciasteczko Lotus","#c98f5a"],
+    ["Ciasteczko Orix","#b3a594"],["Cola z cytryną i żelkami","#dc633b","sorbet"],["Guma balonowa","#e38ea0"],["Jagoda","#6f5a8e"],
+    ["Czarna porzeczka","#944d65","jogurtowe"],["Limonka - poziomka","#d98a8f","jogurtowe"],["Kinder czekoladka","#a37d67"],["Malina z aloesem","#da5a70","sorbet"],
+    ["Mango - liczi - marakuja","#e0b04a","sorbet"],["Mascarpone leśne","#c27f85"],["Mojito - limonka","#c5d163","sorbet"],["Wanilia Madagaskar","#e9dcb4"],
+    ["Wiśnia - rabarbar","#b8394a","sorbet"],["Zielone owoce z miętą","#c3db54","sorbet"],["Biała czekolada z pistacją i maliną","#e8d3c8"],["Brownie Dubai","#8a5a3c"],
+    ["Czekolada belgijska","#af7457"],["Kokos - porzeczka","#e2c9d2"],["Pistacja prażona","#d1c278"],["Rocher pralinka","#a8794f"],
+    ["Słony karmel","#d99251"],["Wanilia - pecan","#dcc39a"]
   ];
   var ul=document.getElementById('lista');
   if(ul){
