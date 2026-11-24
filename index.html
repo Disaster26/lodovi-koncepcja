@@ -20,7 +20,7 @@
 :root{
   --rose:#EA315B;--rose-d:#C91E47;--choc:#3A2219;--choc-2:#4E2E20;--wafel:#D9A35B;
   --ink:#1D1A19;--muted:#5C5A5E;--grey:#F2F3F5;--line:#E2E4E8;--white:#FFFFFF;
-  --wrap:min(92vw,1640px);--head:72px;
+  --wrap:min(92vw,1640px);--head:100px;
   --drip-rose:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='64' viewBox='0 0 600 64'%3E%3Cpath fill='%23EA315B' d='M0 0H600V12L565 12Q558 12 558 19V30A6 6 0 0 1 546 30V19Q546 12 539 12L484 12Q477 12 477 19V49A9 9 0 0 1 459 49V19Q459 12 452 12L410 12Q403 12 403 19V23A5 5 0 0 1 393 23V19Q393 12 386 12L344 12Q337 12 337 19V41A7 7 0 0 1 323 41V19Q323 12 316 12L275 12Q268 12 268 19V32A6 6 0 0 1 256 32V19Q256 12 249 12L193 12Q186 12 186 19V52A10 10 0 0 1 166 52V19Q166 12 159 12L124 12Q117 12 117 19V25A5 5 0 0 1 107 25V19Q107 12 100 12L53 12Q46 12 46 19V44A8 8 0 0 1 30 44V19Q30 12 23 12L0 12Z'/%3E%3C/svg%3E");
   --drip-choc:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='64' viewBox='0 0 600 64'%3E%3Cpath fill='%233A2219' d='M0 0H600V12L565 12Q558 12 558 19V30A6 6 0 0 1 546 30V19Q546 12 539 12L484 12Q477 12 477 19V49A9 9 0 0 1 459 49V19Q459 12 452 12L410 12Q403 12 403 19V23A5 5 0 0 1 393 23V19Q393 12 386 12L344 12Q337 12 337 19V41A7 7 0 0 1 323 41V19Q323 12 316 12L275 12Q268 12 268 19V32A6 6 0 0 1 256 32V19Q256 12 249 12L193 12Q186 12 186 19V52A10 10 0 0 1 166 52V19Q166 12 159 12L124 12Q117 12 117 19V25A5 5 0 0 1 107 25V19Q107 12 100 12L53 12Q46 12 46 19V44A8 8 0 0 1 30 44V19Q30 12 23 12L0 12Z'/%3E%3C/svg%3E");
 }
@@ -49,7 +49,7 @@ p{margin:0}
 .top.cien{border-color:var(--line);box-shadow:0 6px 20px rgba(29,26,25,.06)}
 .top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{display:block;flex:none}
-.logo img{height:64px;width:auto}
+.logo img{height:86px;width:auto}
 .menu{display:flex;align-items:center;gap:clamp(18px,2.2vw,40px)}
 .menu a{text-decoration:none;font-weight:600;font-size:16px;position:relative;padding:6px 0}
 .menu a:not(.btn)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--rose);transform:scaleX(0);transform-origin:left;transition:transform .25s}
@@ -189,8 +189,8 @@ form .btn{justify-self:start}
   .lista{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:960px){
-  :root{--head:64px}
-  .logo img{height:46px}
+  :root{--head:76px}
+  .logo img{height:62px}
   .burger{display:block}
   .menu{position:fixed;top:var(--head);left:0;right:0;bottom:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:12px 4vw 32px;transform:translateX(100%);transition:transform .3s;visibility:hidden;overflow:auto}
   .menu.otw{transform:none;visibility:visible}
